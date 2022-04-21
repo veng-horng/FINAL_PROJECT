@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MARIANA FASHION STYLISH</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/logo/favicon.ico" />
+    <link rel="stylesheet" href="../CSS/main.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <style>
+        #to-top {
+            position: fixed;
+            border: 1px solid black;
+            right: 20px;
+            bottom: 20px;
+            cursor: pointer;
+            padding: 10px 15px;
+            background: nonw;
+            font-weight: bold;
+            color: #000000;
+            size: 20px;
+            display: none;
+        }
+        
+        .icons:hover {
+            stroke: black;
+        }
+        
+        .nav-item form {
+            /*     background-color: aquamarine; */
+            height: 80%;
+            padding-top: 5px;
+        }
+        
+        .nav-item form button {
+            padding-top: 1px;
+            background-color: grey;
+            color: aliceblue;
+            border: none;
+        }
+        
+        #thirdcol {
+            padding-top: 2px;
+        }
+        
+        #navbartoggler li a {
+            color: black;
+        }
+        
+        .logo {
+            width: 28%;
+            /* background-color: rgb(44, 82, 82); */
+        }
+        
+        .logo img {
+            height: 50px;
+            /*  background-color: aqua; */
+        }
+        /* 
+        .icons:active {
+            background-color: blue;
+        }
+        
+        .icons:focus {
+            background-color: burlywood;
+        } */
+    </style>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+
+    <!--===== HEADER =====-->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-white bg-white shadow-sm mb-3 bg-body pb-0 ">
+        <div class="container-fluid d-flex justify-content-between">
+            <div class="logo">
+                <a href="./HomepageHome.html"><img src="../Images/Mariana (2).png" alt="logo" /></a>
+            </div>
+
+            <button onclick="changeOne()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggler" aria-controls="navbartoggler" aria-expanded="false" aria-label="Toggle navigation" value="0" id="btn">
+          <span class="navbar-toggler-icon pt-1"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+
+            <div class=" collapse navbar-collapse" id="navbartoggler" style="--bs-scroll-height: 200px">
+                <nav class="NaviGation" class=" mx-sm-auto d-flex justify-content-between">
+                    <ul class="navbar-nav mb-2 mb-lg-0 mx-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="./HomepageHome.html"> HOME </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="./Index.html"><b>WOMEN</b></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-center" href="./menHomepage.html">MEN</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="./shoesHomepage.html">SHOES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="./accesoriesHomepage.html">ACCESORIES</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="d-lg-flex justify-content-between">
+                    <nav class="NaviGation" class=" mx-sm-auto d-flex justify-content-between">
+                        <ul id="thirdcol" class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-center px-1 " href="./cardsHomepage.html"><svg class="" width="20" height="20" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.81084 9.43033C3.84939 8.95001 4.06744 8.50184 4.42156 8.17507C4.77569 7.84829 5.2399 7.66689 5.72176 7.66699H17.2773C17.7592 7.66689 18.2234 7.84829 18.5775 8.17507C18.9317 8.50184 19.1497 8.95001 19.1883 9.43033L19.9578 19.0137C19.979 19.2774 19.9453 19.5426 19.8589 19.7927C19.7726 20.0428 19.6353 20.2723 19.4559 20.4667C19.2765 20.6612 19.0588 20.8164 18.8164 20.9226C18.5741 21.0287 18.3124 21.0836 18.0478 21.0837H4.95126C4.68668 21.0836 4.42499 21.0287 4.18265 20.9226C3.94032 20.8164 3.72259 20.6612 3.54317 20.4667C3.36376 20.2723 3.22655 20.0428 3.14017 19.7927C3.0538 19.5426 3.02013 19.2774 3.0413 19.0137L3.81084 9.43033V9.43033Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.3327 10.542V5.75033C15.3327 4.73366 14.9288 3.75864 14.2099 3.03975C13.491 2.32086 12.516 1.91699 11.4993 1.91699C10.4827 1.91699 9.50766 2.32086 8.78877 3.03975C8.06988 3.75864 7.66602 4.73366 7.66602 5.75033V10.542" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+            <span
+              class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"
+              >CARTS</span
+            >
+           </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-center px-1 " href="./favoriteHomepage.html"><svg width="20" height="20" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.1359 4.3125C16.6592 4.31206 17.1774 4.41609 17.6599 4.6185C18.1425 4.82092 18.5798 5.11763 18.9462 5.49125C19.7012 6.25771 20.1244 7.2904 20.1244 8.36625C20.1244 9.44211 19.7012 10.4748 18.9462 11.2413L11.5 18.7809L4.05374 11.2413C3.29875 10.4748 2.87556 9.44211 2.87556 8.36625C2.87556 7.2904 3.29875 6.25771 4.05374 5.49125C4.42037 5.1179 4.85772 4.82134 5.34024 4.6189C5.82276 4.41646 6.34079 4.31219 6.86405 4.31219C7.38732 4.31219 7.90535 4.41646 8.38787 4.6189C8.87039 4.82134 9.30774 5.1179 9.67437 5.49125L11.5 7.36L13.3184 5.50563C13.6837 5.12755 14.1215 4.82703 14.6056 4.62202C15.0897 4.41702 15.6102 4.31175 16.1359 4.3125V4.3125ZM16.1359 2.875C15.4212 2.8744 14.7136 3.01649 14.0545 3.29296C13.3954 3.56942 12.7982 3.97469 12.2978 4.485L11.5 5.29L10.7022 4.485C10.2012 3.97561 9.60378 3.57105 8.94483 3.29489C8.28587 3.01873 7.57854 2.87651 6.86405 2.87651C6.14957 2.87651 5.44224 3.01873 4.78328 3.29489C4.12433 3.57105 3.52693 3.97561 3.02593 4.485C2.00665 5.52261 1.43555 6.91895 1.43555 8.37344C1.43555 9.82793 2.00665 11.2243 3.02593 12.2619L11.5 20.8438L19.9741 12.2619C20.9933 11.2243 21.5644 9.82793 21.5644 8.37344C21.5644 6.91895 20.9933 5.52261 19.9741 4.485C19.4732 3.97534 18.8758 3.5705 18.2169 3.29408C17.5579 3.01766 16.8505 2.8752 16.1359 2.875V2.875Z" fill="black"/>
+                            </svg>
+            <span
+              class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"
+              >FAVORITE</span
+            >
+           </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-center px-1" href="./singIn.html"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3346 7.49935C13.3346 8.3834 12.9834 9.23125 12.3583 9.85637C11.7332 10.4815 10.8854 10.8327 10.0013 10.8327C9.11725 10.8327 8.2694 10.4815 7.64428 9.85637C7.01916 9.23125 6.66797 8.3834 6.66797 7.49935C6.66797 6.61529 7.01916 5.76745 7.64428 5.14233C8.2694 4.5172 9.11725 4.16602 10.0013 4.16602C10.8854 4.16602 11.7332 4.5172 12.3583 5.14233C12.9834 5.76745 13.3346 6.61529 13.3346 7.49935V7.49935ZM11.668 7.49935C11.668 7.94138 11.4924 8.3653 11.1798 8.67786C10.8673 8.99042 10.4433 9.16602 10.0013 9.16602C9.55927 9.16602 9.13535 8.99042 8.82279 8.67786C8.51023 8.3653 8.33464 7.94138 8.33464 7.49935C8.33464 7.05732 8.51023 6.6334 8.82279 6.32084C9.13535 6.00828 9.55927 5.83268 10.0013 5.83268C10.4433 5.83268 10.8673 6.00828 11.1798 6.32084C11.4924 6.6334 11.668 7.05732 11.668 7.49935V7.49935Z" fill="black"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0007 0.833008C4.93815 0.833008 0.833984 4.93717 0.833984 9.99967C0.833984 15.0622 4.93815 19.1663 10.0007 19.1663C15.0631 19.1663 19.1673 15.0622 19.1673 9.99967C19.1673 4.93717 15.0631 0.833008 10.0007 0.833008ZM2.50065 9.99967C2.50065 11.7413 3.09482 13.3447 4.09065 14.618C4.79001 13.6996 5.69223 12.9553 6.72684 12.4433C7.76146 11.9312 8.90044 11.6653 10.0548 11.6663C11.1943 11.6653 12.3189 11.9243 13.3431 12.4237C14.3673 12.923 15.264 13.6496 15.9648 14.548C16.6869 13.601 17.173 12.4957 17.3831 11.3235C17.5931 10.1513 17.521 8.94595 17.1727 7.80716C16.8244 6.66837 16.21 5.62888 15.3802 4.77471C14.5504 3.92053 13.5292 3.27622 12.401 2.8951C11.2727 2.51397 10.07 2.40698 8.8922 2.58299C7.71442 2.75899 6.59548 3.21292 5.62796 3.90722C4.66044 4.60152 3.87216 5.51623 3.32834 6.57567C2.78452 7.63511 2.5008 8.80881 2.50065 9.99967V9.99967ZM10.0007 17.4997C8.27894 17.5023 6.60921 16.91 5.27398 15.823C5.81143 15.0536 6.52677 14.4254 7.35914 13.9919C8.19152 13.5584 9.11631 13.3323 10.0548 13.333C10.9816 13.3323 11.8952 13.5527 12.7198 13.9759C13.5443 14.3991 14.256 15.0129 14.7956 15.7663C13.4501 16.8886 11.7528 17.5021 10.0007 17.4997V17.4997Z" fill="black"/>
+                              </svg>
+                              
+            <span
+              class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none"
+              >PROFILE</span
+            >
+           </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <form class="nav-link d-flex px-0 pt-1">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-white text-white bg-dark" type="submit">
+                  Search
+                </button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </nav>
+
+
+    <!--===== END HEADER =====-->
+    <div class="container text-align-right">
+        <p style="font-size: 28px;">This Week's Highlights</p>
+    </div>
+    <!-- ======= Hero Section ======= -->
+    <section id="heroZero" class="container-sm justify-content-between p-0">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="row boxes">
+                <!-- Item1 -->
+                <div class="col-6 col-md-3   d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/Ten11-Lady-Long-Sleeves-Printed-Crop-Top (2)-cr-450x672.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg class="dayereh" onclick="change1()" width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_469_9)">
+                      <path
+                        d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                        stroke="black"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_469_9">
+                        <rect
+                          width="25"
+                          height="25"
+                          fill="white"
+                          transform="translate(0.332031 0.49707)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item2 -->
+                <div class="col-6 col-md-3  d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/weekly_highlight/2.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_469_9)">
+                                  <path
+                                    d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                    stroke="black"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_469_9">
+                                    <rect
+                                      width="25"
+                                      height="25"
+                                      fill="white"
+                                      transform="translate(0.332031 0.49707)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item3 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/weekly_highlight/3.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_469_9)">
+                                  <path
+                                    d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                    stroke="black"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_469_9">
+                                    <rect
+                                      width="25"
+                                      height="25"
+                                      fill="white"
+                                      transform="translate(0.332031 0.49707)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item4 -->
+                <div class="col-6 col-md-3  d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/weekly_highlight/4.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_469_9)">
+                                  <path
+                                    d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                    stroke="black"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_469_9">
+                                    <rect
+                                      width="25"
+                                      height="25"
+                                      fill="white"
+                                      transform="translate(0.332031 0.49707)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr />
+
+    <div id="info" class="container d-flex justify-content-between mb-3">
+        <div>
+            <h2>Shirt</h2>
+        </div>
+
+        <div id="filter" class="float-right px-0">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle d-inline-block bg-white" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="img-fluid" src="../Images/wardrobe.png" alt="" />
+            <span> categories</span>
+          </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="./Index.html">New Arrival</a></li>
+                    <li><a class="dropdown-item" href="./Index_women_shirt.html">Shirt</a></li>
+                    <li><a class="dropdown-item" href="./Index_women_shirt_crop_top.html">Crop-Top</a></li>
+                    <li><a class="dropdown-item" href="./Index_women_jean.html">Jean</a></li>
+                    <li><a class="dropdown-item" href="./Index_women_dress.html">Dress</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section id="heroOne" class="container justify-content-between p-0">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="row boxes">
+                <!-- Item1 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/5.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_469_9)">
+                                  <path
+                                    d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                    stroke="black"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_469_9">
+                                    <rect
+                                      width="25"
+                                      height="25"
+                                      fill="white"
+                                      transform="translate(0.332031 0.49707)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item2 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/6.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_469_9)">
+                                  <path
+                                    d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                    stroke="black"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_469_9">
+                                    <rect
+                                      width="25"
+                                      height="25"
+                                      fill="white"
+                                      transform="translate(0.332031 0.49707)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item3 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/7.Lady-Long Sleeves-Mock Neck-Crop Sweater-Shirt (9).jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_469_9)">
+                                  <path
+                                    d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                    stroke="black"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_469_9">
+                                    <rect
+                                      width="25"
+                                      height="25"
+                                      fill="white"
+                                      transform="translate(0.332031 0.49707)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item4 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/8.Lady-Long-Sleeves-Off-The-Shoulder-Crop-Top (8).jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_469_9)">
+                                  <path
+                                    d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                    stroke="black"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_469_9">
+                                    <rect
+                                      width="25"
+                                      height="25"
+                                      fill="white"
+                                      transform="translate(0.332031 0.49707)"
+                                    />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="0.25"
+                    y="0.25"
+                    width="19.5"
+                    height="19.5"
+                    stroke="black"
+                    stroke-width="0.5"
+                  />
+                </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <div id="to-top" class="scrollup" title="back to top">↑</div>
+    <!-- SCROLL UP BUTTON ↑ -->
+
+
+
+
+    <section id="heroTwo" class="container justify-content-between p-0">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="row boxes">
+                <!-- Item1 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/5.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_469_9)">
+                              <path
+                                d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                stroke="black"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_469_9">
+                                <rect
+                                  width="25"
+                                  height="25"
+                                  fill="white"
+                                  transform="translate(0.332031 0.49707)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item2 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/6.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_469_9)">
+                              <path
+                                d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                stroke="black"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_469_9">
+                                <rect
+                                  width="25"
+                                  height="25"
+                                  fill="white"
+                                  transform="translate(0.332031 0.49707)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item3 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/7.Lady-Long Sleeves-Mock Neck-Crop Sweater-Shirt (9).jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_469_9)">
+                              <path
+                                d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                stroke="black"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_469_9">
+                                <rect
+                                  width="25"
+                                  height="25"
+                                  fill="white"
+                                  transform="translate(0.332031 0.49707)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item4 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/8.Lady-Long-Sleeves-Off-The-Shoulder-Crop-Top (8).jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_469_9)">
+                              <path
+                                d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                stroke="black"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_469_9">
+                                <rect
+                                  width="25"
+                                  height="25"
+                                  fill="white"
+                                  transform="translate(0.332031 0.49707)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <section id="hero" class="container justify-content-between p-0">
+        <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="row boxes">
+                <!-- Item1 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/5.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_469_9)">
+                              <path
+                                d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                stroke="black"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_469_9">
+                                <rect
+                                  width="25"
+                                  height="25"
+                                  fill="white"
+                                  transform="translate(0.332031 0.49707)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item2 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/6.jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_469_9)">
+                              <path
+                                d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                stroke="black"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_469_9">
+                                <rect
+                                  width="25"
+                                  height="25"
+                                  fill="white"
+                                  transform="translate(0.332031 0.49707)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item3 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/7.Lady-Long Sleeves-Mock Neck-Crop Sweater-Shirt (9).jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_469_9)">
+                              <path
+                                d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                stroke="black"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_469_9">
+                                <rect
+                                  width="25"
+                                  height="25"
+                                  fill="white"
+                                  transform="translate(0.332031 0.49707)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item4 -->
+                <div class="col-6 col-md-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="icon-box">
+                        <a href="./detialHomepage.html">
+                            <img src="../Images/WOMEN/newArrive/8.Lady-Long-Sleeves-Off-The-Shoulder-Crop-Top (8).jpg" alt="item" class="img-fluid" />
+                        </a>
+                        <div class="d-flex justify-content-between lign-items-center">
+                            <h4 class="title"><a href="./detialHomepage.html">$13.50</a></h4>
+                            <div class="iconFav">
+                                <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_469_9)">
+                              <path
+                                d="M14.1534 4.56565L14.1536 4.56542C16.4482 2.19784 20.1296 1.84467 22.5813 3.93369C25.4251 6.36087 25.5764 10.7241 23.0253 13.3568L23.0252 13.3569L13.5771 23.1127C13.577 23.1127 13.577 23.1127 13.577 23.1128C13.1631 23.5398 12.4973 23.5398 12.0834 23.1128C12.0834 23.1127 12.0833 23.1127 12.0833 23.1127L2.63537 13.3571C0.0888065 10.7245 0.240148 6.36106 3.08384 3.93381C5.53571 1.84449 9.22188 2.19808 11.5113 4.56506L11.5119 4.56565L12.4738 5.55686L12.8326 5.92661L13.1914 5.55686L14.1534 4.56565Z"
+                                stroke="black"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_469_9">
+                                <rect
+                                  width="25"
+                                  height="25"
+                                  fill="white"
+                                  transform="translate(0.332031 0.49707)"
+                                />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                            </div>
+                        </div>
+                        <p class="description">Lady Long Sleeves Printed Crop Top</p>
+
+                        <div class="d-flex justify-content-between BoxColor">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="black" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect
+                x="0.25"
+                y="0.25"
+                width="19.5"
+                height="19.5"
+                stroke="black"
+                stroke-width="0.5"
+              />
+            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class=" container d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+
+            <div>
+                <a href="https://web.facebook.com/findmehomekh/" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i><span class="d-none">T</span>
+                </a>
+                <a href="https://web.facebook.com/findmehomekh/" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i><span class="d-none">T</span>
+                </a>
+                <a href="https://web.facebook.com/findmehomekh/" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i><span class="d-none">T</span>
+                </a>
+                <a href="https://web.facebook.com/findmehomekh/" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i><span class="d-none">T</span>
+                </a>
+
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>MARIANA FASHON STYLISH
+                        </h6>
+                        <p>
+                            MARIANA Works Closely With Our Local Producers Throughout The Creative Design Process, To Ensure That All Products Are Original, High Quality, And Ethically Sourced.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="./menHomepage.html" class="text-reset">MEN</a>
+                        </p>
+                        <p>
+                            <a href="./Index.html" class="text-reset">WOMEN</a>
+                        </p>
+                        <p>
+                            <a href="./shoesHomepage.html" class="text-reset">SHOES</a>
+                        </p>
+                        <p>
+                            <a href="./accesoriesHomepage.html" class="text-reset">ACCESORIES</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="./cardsHomepage.html" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="./profile.html" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="./orderpage.html" class="text-reset">Orders</a>
+                        </p>
+                        <p id="help">
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p class=" mb-2  "><i class="fas fa-home me-3 "></i> 2nd Bridge Prek Leap, National Road Number 6, Phnom Penh 12252</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i> mariana@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> +885 96 936 2142</p>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">GROUP 8 PROJECT</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- ======= End Hero Section ======= -->
+
+
+
+    <br /><br />
+
+
+    <!-- JS Font Awesome -->
+    <script src="https://kit.fontawesome.com/c7e146e275.js" crossorigin="anonymous"></script>
+    <!-- JS bootstrap5 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <!-- JS Script -->
+
+    <!--  <script>
+        var i = 1;
+
+        function changeOne() {
+            i++;
+            if (screen.width < 992) {
+                document.getElementById("Three").innerHTML = "PROFILE";
+            }
+            /* else {
+                                                                                document.getElementById("Three").innerHTML = "icon";
+                                                                            } */
+        }
+    </script> -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        var i = 1;
+
+        function change1() {
+            i++;
+            if (i % 2 == 0) {
+                document.querySelector(".dayereh ").setAttribute("fill", "black");
+            } else {
+                document.querySelector(".dayereh ").setAttribute("fill", "none");
+            }
+        }
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#btn").on("click", function(e) {
+                $("#myimgdivshowhide").toggle();
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop()) {
+                    $("#to-top").stop().fadeIn("fast"); // show the button
+                } else {
+                    $("#to-top").stop().slideUp("fast"); // hide the button
+                }
+            });
+        });
+        $(function() {
+            // previous detection logic
+
+            $("#to-top").on("click", function() {
+                $("html, body").animate({
+                        scrollTop: 10,
+                    },
+                    "fast"
+                );
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function() {
+            $("#help").on("click", function(e) {
+                let timerInterval
+                Swal.fire({
+                    title: 'Connecting Live Chat!',
+                    html: 'We are connecting live chat in <b></b> milliseconds.',
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: () => {
+                        Swal.showLoading()
+                        const b = Swal.getHtmlContainer().querySelector('b')
+                        timerInterval = setInterval(() => {
+                            b.textContent = Swal.getTimerLeft()
+                        }, 100)
+                    },
+                    willClose: () => {
+                        clearInterval(timerInterval)
+                    }
+                }).then((result) => {
+                    /* Read more about handling dismissals below */
+                    if (result.dismiss === Swal.DismissReason.timer) {
+                        console.log('I was closed by the timer')
+                    }
+                })
+            });
+        });
+    </script>
+
+</body>
+
+</html>
